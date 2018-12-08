@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<!--<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">-->
+<!--<Button  fx:id="rect"/>-->
+<!--</VBox>-->
+
+<Pane fx:id="board" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" stylesheets="/sample/WindowSample.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button id="70w" fx:id="w70"  prefHeight="50.0" onMouseClicked="#onButtonClicked" styleClass="whiteRook" prefWidth="50.0" />
+      <Button id="71b" fx:id="b71"  prefHeight="50.0" layoutX="50.0" onMouseClicked="#onButtonClicked" styleClass="whiteKnight" prefWidth="50.0" />
+      <Button id="72w" fx:id="w72" prefHeight="50.0" layoutX="100.0" onMouseClicked="#onButtonClicked" styleClass="whiteBishop" prefWidth="50.0" />
+      <Button id="73b" fx:id="b73"  prefHeight="50.0" layoutX="150.0" onMouseClicked="#onButtonClicked" styleClass="whiteQueen" prefWidth="50.0" />
+      <Button id="74w" fx:id="w74" prefHeight="50.0" layoutX="200.0" onMouseClicked="#onButtonClicked" styleClass="whiteKing" prefWidth="50.0" />
+      <Button id="75b" fx:id="b75"  prefHeight="50.0" layoutX="250.0" onMouseClicked="#onButtonClicked" styleClass="whiteBishop" prefWidth="50.0" />
+      <Button id="76w" fx:id="w76" prefHeight="50.0" layoutX="300.0" onMouseClicked="#onButtonClicked" styleClass="whiteKnight" prefWidth="50.0" />
+      <Button id="77b" fx:id="b77"  prefHeight="50.0" layoutX="350.0" onMouseClicked="#onButtonClicked" styleClass="whiteRook" prefWidth="50.0" />
+      <Button id="60b" fx:id="b60"  prefHeight="50.0" layoutY="50.0" onMouseClicked="#onButtonClicked" styleClass="whitePawn" prefWidth="50.0" />
+      <Button id="62b" fx:id="b62"  prefHeight="50.0" layoutX="100.0" layoutY="50.0" onMouseClicked="#onButtonClicked" styleClass="whitePawn" prefWidth="50.0" />
+      <Button id="64b" fx:id="b64"  prefHeight="50.0" layoutX="200.0" layoutY="50.0" onMouseClicked="#onButtonClicked" styleClass="whitePawn" prefWidth="50.0" />
+      <Button id="66b" fx:id="b66"  prefHeight="50.0" layoutX="300.0" layoutY="50.0" onMouseClicked="#onButtonClicked" styleClass="whitePawn" prefWidth="50.0" />
+      <Button id="61w" fx:id="w61" prefHeight="50.0" layoutX="50.0" layoutY="50.0" onMouseClicked="#onButtonClicked" styleClass="whitePawn" prefWidth="50.0" />
+      <Button id="63w" fx:id="w63" prefHeight="50.0" layoutX="150.0" layoutY="50.0" onMouseClicked="#onButtonClicked" styleClass="whitePawn" prefWidth="50.0" />
+      <Button id="65w" fx:id="w65" prefHeight="50.0" layoutX="250.0" layoutY="50.0" onMouseClicked="#onButtonClicked" styleClass="whitePawn" prefWidth="50.0" />
+      <Button id="67w" fx:id="w67" prefHeight="50.0" layoutX="350.0" layoutY="50.0" onMouseClicked="#onButtonClicked" styleClass="whitePawn" prefWidth="50.0" />
+      <Button id="51b" fx:id="b51"  prefHeight="50.0" layoutX="50.0" layoutY="100.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="53b" fx:id="b53"  prefHeight="50.0" layoutX="150.0" layoutY="100.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="55b" fx:id="b55"  prefHeight="50.0" layoutX="250.0" layoutY="100.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="57b" fx:id="b57"  prefHeight="50.0" layoutX="350.0" layoutY="100.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="50w" fx:id="w50" prefHeight="50.0" layoutY="100.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="52w" fx:id="w52" prefHeight="50.0" layoutX="100.0" layoutY="100.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="54w" fx:id="w54" prefHeight="50.0" layoutX="200.0" layoutY="100.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="56w" fx:id="w56" prefHeight="50.0" layoutX="300.0" layoutY="100.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="40b" fx:id="b40"  prefHeight="50.0" layoutY="150.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="42b" fx:id="b42"  prefHeight="50.0" layoutX="100.0" layoutY="150.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="44b" fx:id="b44"  prefHeight="50.0" layoutX="200.0" layoutY="150.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="46b" fx:id="b46"  prefHeight="50.0" layoutX="300.0" layoutY="150.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="41w" fx:id="w41" prefHeight="50.0" layoutX="50.0" layoutY="150.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="43w" fx:id="w43" prefHeight="50.0" layoutX="150.0" layoutY="150.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="45w" fx:id="w45" prefHeight="50.0" layoutX="250.0" layoutY="150.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="47w" fx:id="w47" prefHeight="50.0" layoutX="350.0" layoutY="150.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="30w" fx:id="w30" prefHeight="50.0" layoutY="200.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="31b" fx:id="b31"  prefHeight="50.0" layoutX="50.0" layoutY="200.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="32w" fx:id="w32" prefHeight="50.0" layoutX="100.0" layoutY="200.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="33b" fx:id="b33"  prefHeight="50.0" layoutX="150.0" layoutY="200.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="34w" fx:id="w34" prefHeight="50.0" layoutX="200.0" layoutY="200.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="35b" fx:id="b35"  prefHeight="50.0" layoutX="250.0" layoutY="200.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="36w" fx:id="w36" prefHeight="50.0" layoutX="300.0" layoutY="200.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="37b" fx:id="b37"  prefHeight="50.0" layoutX="350.0" layoutY="200.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="20b" fx:id="b20"  prefHeight="50.0" layoutY="250.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="22b" fx:id="b22"  prefHeight="50.0" layoutX="100.0" layoutY="250.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="24b" fx:id="b24"  prefHeight="50.0" layoutX="200.0" layoutY="250.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="26b" fx:id="b26"  prefHeight="50.0" layoutX="300.0" layoutY="250.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="21w" fx:id="w21" prefHeight="50.0" layoutX="50.0" layoutY="250.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="23w" fx:id="w23" prefHeight="50.0" layoutX="150.0" layoutY="250.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="25w" fx:id="w25" prefHeight="50.0" layoutX="250.0" layoutY="250.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="27w" fx:id="w27" prefHeight="50.0" layoutX="350.0" layoutY="250.0" onMouseClicked="#onButtonClicked" prefWidth="50.0" />
+      <Button id="11b" fx:id="b11"  prefHeight="50.0" layoutX="50.0" layoutY="300.0" onMouseClicked="#onButtonClicked" styleClass="blackPawn" prefWidth="50.0" />
+      <Button id="13b" fx:id="b13"  prefHeight="50.0" layoutX="150.0" layoutY="300.0" onMouseClicked="#onButtonClicked" styleClass="blackPawn" prefWidth="50.0" />
+      <Button id="15b" fx:id="b15"  prefHeight="50.0" layoutX="250.0" layoutY="300.0" onMouseClicked="#onButtonClicked" styleClass="blackPawn" prefWidth="50.0" />
+      <Button id="17b" fx:id="b17"  prefHeight="50.0" layoutX="350.0" layoutY="300.0" onMouseClicked="#onButtonClicked" styleClass="blackPawn" prefWidth="50.0" />
+      <Button id="10w" fx:id="w10" prefHeight="50.0" layoutY="300.0" onMouseClicked="#onButtonClicked" styleClass="blackPawn" prefWidth="50.0" />
+      <Button id="12w" fx:id="w12" prefHeight="50.0" layoutX="100.0" layoutY="300.0" onMouseClicked="#onButtonClicked" styleClass="blackPawn" prefWidth="50.0" />
+      <Button id="14w" fx:id="w14" prefHeight="50.0" layoutX="200.0" layoutY="300.0" onMouseClicked="#onButtonClicked" styleClass="blackPawn" prefWidth="50.0" />
+      <Button id="16w" fx:id="w16" prefHeight="50.0" layoutX="300.0" layoutY="300.0" onMouseClicked="#onButtonClicked" styleClass="blackPawn" prefWidth="50.0" />
+      <Button id="00b" fx:id="b00"  prefHeight="50.0" layoutY="350.0" onMouseClicked="#onButtonClicked" styleClass="blackRook" prefWidth="50.0" />
+      <Button id="02b" fx:id="b02"  prefHeight="50.0" layoutX="100.0" layoutY="350.0" onMouseClicked="#onButtonClicked" styleClass="blackBishop" prefWidth="50.0" />
+      <Button id="04b" fx:id="b04"  prefHeight="50.0" layoutX="200.0" layoutY="350.0" onMouseClicked="#onButtonClicked" styleClass="blackKing" prefWidth="50.0" />
+      <Button id="06b" fx:id="b06"  prefHeight="50.0" layoutX="300.0" layoutY="350.0" onMouseClicked="#onButtonClicked" styleClass="blackKnight" prefWidth="50.0" />
+      <Button id="01w" fx:id="w01" prefHeight="50.0" layoutX="50.0" layoutY="350.0" onMouseClicked="#onButtonClicked" styleClass="blackKnight" prefWidth="50.0" />
+      <Button id="03w" fx:id="w03" prefHeight="50.0" layoutX="150.0" layoutY="350.0" onMouseClicked="#onButtonClicked" styleClass="blackQueen" prefWidth="50.0" />
+      <Button id="05w" fx:id="w05" prefHeight="50.0" layoutX="250.0" layoutY="350.0" onMouseClicked="#onButtonClicked" styleClass="blackBishop" prefWidth="50.0" />
+      <Button id="07w" fx:id="w07" prefHeight="50.0" layoutX="350.0" layoutY="350.0" onMouseClicked="#onButtonClicked" styleClass="blackRook" prefWidth="50.0" />
+
+
+     
+
+
+   </children>
+</Pane>
